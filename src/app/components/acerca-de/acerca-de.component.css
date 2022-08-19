@@ -1,0 +1,67 @@
+.row{
+  padding: 15px;
+}
+
+div{
+  background-color: rgb(186, 165, 213);
+  text-align: left;
+  margin-top: 5px;
+}
+
+
+@media (min-width:576px){
+  #mifoto {
+    position: absolute;
+    width: 12%;
+    border-radius: 20%;
+    left: 2%;
+    top: 280px;
+    box-shadow: 5px 5px black;
+    
+    
+  }
+
+}
+
+@media (max-width:575px){
+  #mifoto {
+    position: absolute;
+    width: 10%;
+    border-radius: 20%;
+    left: 45%;
+    top: 450px;
+    box-shadow: 5px 5px 20px black
+      }
+
+  #nombre {
+    font-size:medium;
+    font-weight: no;
+    margin-top: 5px;
+    text-align: center;
+       
+        
+      }
+
+}
+
+#nombre {
+  font-size:xx-large;
+  font-weight: bold;
+  margin-top: 5px;
+  text-align: center;
+ 
+  
+}
+
+#posicion{
+  text-align: center;
+  font-size: small;
+}
+
+h2 {
+  text-align: center;
+}
+
+#acercademi {
+  text-align: center;
+}
